@@ -2,6 +2,7 @@
 export const ADD_EMAIL = 'ADD_EMAIL';
 export const ADD_CURRENCIES = 'ADD_CURRENCIES';
 export const ADD_EXPENSES = 'ADD-EXPENSES';
+export const DELETE_EXPENSE = 'DELETE_EXPENSE';
 
 export const addEmail = (payload) => ({ type: ADD_EMAIL, payload });
 
@@ -23,3 +24,5 @@ export const fetchExchangeRate = () => async () => {
   const data = await response.json();
   return data;
 };
+
+export const deleteExpense = (payload) => ({ type: DELETE_EXPENSE, payload });
