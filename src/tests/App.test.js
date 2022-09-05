@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import renderWithRouterAndRedux from './helpers/renderWith';
 import App from '../App';
-import mockData from './helpers/mockData';
+// import mockData from './helpers/mockData';
 
 describe('Verifica página de login', () => {
   test('Deve haver um botão de login com texto "Entrar"', () => {
