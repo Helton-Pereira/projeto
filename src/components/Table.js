@@ -62,6 +62,12 @@ class Table extends Component {
                   Deletar
 
                 </button>
+                <button
+                  type="button"
+                  data-testid="edit-btn"
+                >
+                  Editar
+                </button>
               </td>
             </tr>
 
